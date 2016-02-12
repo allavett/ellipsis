@@ -465,3 +465,14 @@ a {
 
 /* =End Shop-Link
 --------------------------------------------------------------------------------------------------------*/
+
+.teaser > b, .teaser > p {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    height: 122px;
+    margin: 0 auto;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow:hidden;
+}
